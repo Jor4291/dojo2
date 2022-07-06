@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+.dark{
+    color: rgb(201, 192, 192);
+    background-color: #2b2626fb;
+}
+
+a {
+    
+    text-decoration: none;
+    display: block;
+}
+
+a .dark {
+    color:rgb(105, 98, 98)
+}
+
+button {
+    border: 1px solid black;
+    padding: 0px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    width: 1rem;
+    border-radius: 5px;
+    margin-left: 2rem;
+}
+
+button div {
+    border: 1px solid rgb(201, 192, 192);
+    height: .8rem;
+    width: .8rem;
+    background-color: rgb(201, 192, 192);
+    border-radius: 4px;
+}
+
+button p {
+    color:rgb(133, 125, 125);
+    font-size: 8px;
+}
+
+.On {
+    flex-direction: column-reverse;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#514a4afb
+}
+
+section {
+    /* margin: 1rem 0px; */
+}
+
+article {
+    width: 100%;
+    padding: 1rem;
+}
+
+article:nth-child(odd) {
+    border:15px solid rgb(105, 98, 98);
+    border-radius: 20px;
+}
+
+article img {
+    width:80%;
+    height:100%;
+    margin-left: 9rem;
+    border-radius: 10rem;
+    margin-top: 2rem;
+    
+}
+
+article h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    /* padding: 1rem 0px; */
+}
+
+article p {
+    font-size: 1.25;
+    padding: 3rem;
+}
+
+footer {
+    font-size: 14px;
+    border: 1rem;
+    text-align: center;
+}
